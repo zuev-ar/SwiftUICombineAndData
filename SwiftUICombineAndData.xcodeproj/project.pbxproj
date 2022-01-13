@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7600863278DE51000230AC2 /* NotificationsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7600862278DE51000230AC2 /* NotificationsRow.swift */; };
+		D7600865278DE68300230AC2 /* LiteModeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7600864278DE68300230AC2 /* LiteModeRow.swift */; };
+		D7600868278DE84100230AC2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D7600867278DE84100230AC2 /* FirebaseAnalytics */; };
+		D760086A278DE84100230AC2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D7600869278DE84100230AC2 /* FirebaseMessaging */; };
 		D7CA19E127721746006155B9 /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA19E027721746006155B9 /* SwiftUICombineAndDataApp.swift */; };
 		D7CA19E327721746006155B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA19E227721746006155B9 /* ContentView.swift */; };
 		D7CA19E527721748006155B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CA19E427721748006155B9 /* Assets.xcassets */; };
@@ -18,9 +22,29 @@
 		D7CA19F9277227A6006155B9 /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA19F8277227A6006155B9 /* GradientIcon.swift */; };
 		D7CA19FB27722EF2006155B9 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA19FA27722EF1006155B9 /* FAQView.swift */; };
 		D7CA19FD27722F09006155B9 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA19FC27722F09006155B9 /* PackagesView.swift */; };
+		D7CFCE6B27905C4700A894CE /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CFCE6A27905C4700A894CE /* NotificationViewModel.swift */; };
+		D7CFCE6D27906F6500A894CE /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CFCE6C27906F6500A894CE /* NetworkReachability.swift */; };
+		D7D13099278B31F70046D1C6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D7D13098278B31F70046D1C6 /* FirebaseFirestore */; };
+		D7D1309D278B326C0046D1C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7D1309C278B326B0046D1C6 /* GoogleService-Info.plist */; };
+		D7D1309F278B34F90046D1C6 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1309E278B34F90046D1C6 /* Certificate.swift */; };
+		D7D130A2278B378E0046D1C6 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D130A1278B378E0046D1C6 /* CertificateViewModel.swift */; };
+		D7D130A4278B4A310046D1C6 /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D130A3278B4A310046D1C6 /* CertificatesView.swift */; };
+		D7D130A7278B4C010046D1C6 /* CertificateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D130A6278B4C010046D1C6 /* CertificateCard.swift */; };
+		D7D1547A2778752C00D37187 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D154792778752C00D37187 /* Package.swift */; };
+		D7D1547E277877C700D37187 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1547D277877C700D37187 /* PackageRow.swift */; };
+		D7D1DF512789C1BF00DC49CD /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1DF502789C1BF00DC49CD /* FAQ.swift */; };
+		D7D1DF542789C25700DC49CD /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = D7D1DF532789C25700DC49CD /* faqData.json */; };
+		D7D1DF562789C2BA00DC49CD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1DF552789C2BA00DC49CD /* ModelData.swift */; };
+		D7D1DF582789CEE600DC49CD /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1DF572789CEE600DC49CD /* FAQRow.swift */; };
+		D7D1DF5B2789E0E600DC49CD /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1DF5A2789E0E600DC49CD /* PrimaryButton.swift */; };
+		D7D1DF5D2789E2D800DC49CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1DF5C2789E2D800DC49CD /* Extensions.swift */; };
+		D7D1DF5F2789E6CE00DC49CD /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D1DF5E2789E6CE00DC49CD /* ProfileRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7600862278DE51000230AC2 /* NotificationsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRow.swift; sourceTree = "<group>"; };
+		D7600864278DE68300230AC2 /* LiteModeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteModeRow.swift; sourceTree = "<group>"; };
+		D760086B278DE9FB00230AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D7CA19DD27721746006155B9 /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CA19E027721746006155B9 /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		D7CA19E227721746006155B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +57,22 @@
 		D7CA19F8277227A6006155B9 /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
 		D7CA19FA27722EF1006155B9 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		D7CA19FC27722F09006155B9 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
+		D7CFCE6A27905C4700A894CE /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		D7CFCE6C27906F6500A894CE /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		D7D1309C278B326B0046D1C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7D1309E278B34F90046D1C6 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
+		D7D130A1278B378E0046D1C6 /* CertificateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewModel.swift; sourceTree = "<group>"; };
+		D7D130A3278B4A310046D1C6 /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
+		D7D130A6278B4C010046D1C6 /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
+		D7D154792778752C00D37187 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		D7D1547D277877C700D37187 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
+		D7D1DF502789C1BF00DC49CD /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		D7D1DF532789C25700DC49CD /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
+		D7D1DF552789C2BA00DC49CD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D7D1DF572789CEE600DC49CD /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
+		D7D1DF5A2789E0E600DC49CD /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D7D1DF5C2789E2D800DC49CD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7D1DF5E2789E6CE00DC49CD /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +80,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D760086A278DE84100230AC2 /* FirebaseMessaging in Frameworks */,
+				D7600868278DE84100230AC2 /* FirebaseAnalytics in Frameworks */,
+				D7D13099278B31F70046D1C6 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7600866278DE84100230AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7CA19D427721746006155B9 = {
 			isa = PBXGroup;
 			children = (
 				D7CA19DF27721746006155B9 /* SwiftUICombineAndData */,
 				D7CA19DE27721746006155B9 /* Products */,
+				D7600866278DE84100230AC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,13 +116,18 @@
 		D7CA19DF27721746006155B9 /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
-				D7CA19E027721746006155B9 /* SwiftUICombineAndDataApp.swift */,
-				D7CA19E227721746006155B9 /* ContentView.swift */,
+				D7D130A0278B37630046D1C6 /* ViewModels */,
+				D7D1DF522789C21C00DC49CD /* Resources */,
+				D7D15478277874F400D37187 /* Models */,
 				D7CA1A0227722FB3006155B9 /* Components */,
 				D7CA19FE27722F16006155B9 /* Views */,
 				D7CA19EE27721851006155B9 /* Graphics */,
 				D7CA1A0127722F84006155B9 /* Utils */,
+				D7CA19E027721746006155B9 /* SwiftUICombineAndDataApp.swift */,
+				D7CA19E227721746006155B9 /* ContentView.swift */,
+				D760086B278DE9FB00230AC2 /* Info.plist */,
 				D7CA19E427721748006155B9 /* Assets.xcassets */,
+				D7D1309C278B326B0046D1C6 /* GoogleService-Info.plist */,
 				D7CA19E627721748006155B9 /* Preview Content */,
 			);
 			path = SwiftUICombineAndData;
@@ -99,6 +155,7 @@
 			children = (
 				D7CA19FA27722EF1006155B9 /* FAQView.swift */,
 				D7CA19FC27722F09006155B9 /* PackagesView.swift */,
+				D7D130A3278B4A310046D1C6 /* CertificatesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +164,11 @@
 			isa = PBXGroup;
 			children = (
 				D7CA19F627722657006155B9 /* MenuRow.swift */,
+				D7D1547D277877C700D37187 /* PackageRow.swift */,
+				D7D1DF572789CEE600DC49CD /* FAQRow.swift */,
+				D7D1DF5E2789E6CE00DC49CD /* ProfileRow.swift */,
+				D7600862278DE51000230AC2 /* NotificationsRow.swift */,
+				D7600864278DE68300230AC2 /* LiteModeRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -123,6 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				D7CA19F327721AC9006155B9 /* TrackableScrollView.swift */,
+				D7D1DF552789C2BA00DC49CD /* ModelData.swift */,
+				D7D1DF5C2789E2D800DC49CD /* Extensions.swift */,
+				D7CFCE6C27906F6500A894CE /* NetworkReachability.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -130,10 +195,55 @@
 		D7CA1A0227722FB3006155B9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D7D130A5278B4BE10046D1C6 /* Cards */,
+				D7D1DF592789E0C400DC49CD /* Buttons */,
 				D7CA19FF27722F47006155B9 /* Rows */,
 				D7CA1A0027722F60006155B9 /* Other */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		D7D130A0278B37630046D1C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D7D130A1278B378E0046D1C6 /* CertificateViewModel.swift */,
+				D7CFCE6A27905C4700A894CE /* NotificationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D7D130A5278B4BE10046D1C6 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				D7D130A6278B4C010046D1C6 /* CertificateCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		D7D15478277874F400D37187 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7D154792778752C00D37187 /* Package.swift */,
+				D7D1309E278B34F90046D1C6 /* Certificate.swift */,
+				D7D1DF502789C1BF00DC49CD /* FAQ.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7D1DF522789C21C00DC49CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7D1DF532789C25700DC49CD /* faqData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7D1DF592789E0C400DC49CD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D7D1DF5A2789E0E600DC49CD /* PrimaryButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +262,11 @@
 			dependencies = (
 			);
 			name = SwiftUICombineAndData;
+			packageProductDependencies = (
+				D7D13098278B31F70046D1C6 /* FirebaseFirestore */,
+				D7600867278DE84100230AC2 /* FirebaseAnalytics */,
+				D7600869278DE84100230AC2 /* FirebaseMessaging */,
+			);
 			productName = SwiftUICombineAndData;
 			productReference = D7CA19DD27721746006155B9 /* SwiftUICombineAndData.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +295,9 @@
 				Base,
 			);
 			mainGroup = D7CA19D427721746006155B9;
+			packageReferences = (
+				D7D13097278B31F70046D1C6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D7CA19DE27721746006155B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CA19E827721748006155B9 /* Preview Assets.xcassets in Resources */,
+				D7D1309D278B326C0046D1C6 /* GoogleService-Info.plist in Resources */,
 				D7CA19E527721748006155B9 /* Assets.xcassets in Resources */,
+				D7D1DF542789C25700DC49CD /* faqData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +327,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7CA19E327721746006155B9 /* ContentView.swift in Sources */,
+				D7D1DF582789CEE600DC49CD /* FAQRow.swift in Sources */,
 				D7CA19F427721AC9006155B9 /* TrackableScrollView.swift in Sources */,
+				D7D1309F278B34F90046D1C6 /* Certificate.swift in Sources */,
 				D7CA19F127721867006155B9 /* AccountBackground.swift in Sources */,
+				D7D1DF562789C2BA00DC49CD /* ModelData.swift in Sources */,
+				D7D1547E277877C700D37187 /* PackageRow.swift in Sources */,
 				D7CA19FB27722EF2006155B9 /* FAQView.swift in Sources */,
 				D7CA19FD27722F09006155B9 /* PackagesView.swift in Sources */,
 				D7CA19F9277227A6006155B9 /* GradientIcon.swift in Sources */,
+				D7600865278DE68300230AC2 /* LiteModeRow.swift in Sources */,
+				D7D130A2278B378E0046D1C6 /* CertificateViewModel.swift in Sources */,
+				D7D130A7278B4C010046D1C6 /* CertificateCard.swift in Sources */,
+				D7D1DF5F2789E6CE00DC49CD /* ProfileRow.swift in Sources */,
+				D7CFCE6D27906F6500A894CE /* NetworkReachability.swift in Sources */,
+				D7600863278DE51000230AC2 /* NotificationsRow.swift in Sources */,
+				D7D1547A2778752C00D37187 /* Package.swift in Sources */,
+				D7D1DF512789C1BF00DC49CD /* FAQ.swift in Sources */,
+				D7CFCE6B27905C4700A894CE /* NotificationViewModel.swift in Sources */,
+				D7D1DF5D2789E2D800DC49CD /* Extensions.swift in Sources */,
 				D7CA19E127721746006155B9 /* SwiftUICombineAndDataApp.swift in Sources */,
+				D7D1DF5B2789E0E600DC49CD /* PrimaryButton.swift in Sources */,
 				D7CA19F227721867006155B9 /* VisualEffectBlur.swift in Sources */,
+				D7D130A4278B4A310046D1C6 /* CertificatesView.swift in Sources */,
 				D7CA19F727722657006155B9 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +484,7 @@
 				DEVELOPMENT_TEAM = JT4NX83JD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICombineAndData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -377,6 +514,7 @@
 				DEVELOPMENT_TEAM = JT4NX83JD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICombineAndData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,6 +555,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7D13097278B31F70046D1C6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7600867278DE84100230AC2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D13097278B31F70046D1C6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D7600869278DE84100230AC2 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D13097278B31F70046D1C6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		D7D13098278B31F70046D1C6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7D13097278B31F70046D1C6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7CA19D527721746006155B9 /* Project object */;
 }
